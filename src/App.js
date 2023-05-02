@@ -9,6 +9,7 @@ import { Movielist } from './Pages/Movielist';
 import { Mylogin } from './Pages/Mylogin';
 import { FormV } from './Pages/FormV';
 import { Recordkeep } from './Pages/Recordkeep';
+import { Apifetch } from './Pages/Apifetch';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
           <Route path="/Mylogin" element={<Mylogin/>} />
           <Route path='/FormV' element={<FormV/>} />
           <Route path='/Recordkeep' element={<Recordkeep />} />
+          <Route path='/Apifetch' element={<Apifetch />} />
+
 
         </Routes>
       </Router>

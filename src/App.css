@@ -140,3 +140,19 @@ width: 10%;
   justify-content: center;
   font-weight: bolder;
 }
+.apidatval{
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-top: 2%;
+  padding-left:44px;
+  padding-right: 146px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.apval{
+  margin-left: 4px;
+  margin-right: 4px;
+  width: 100%;
+}
