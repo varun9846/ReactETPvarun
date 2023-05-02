@@ -1,38 +1,106 @@
-.App {
+#Header {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  background-color: blueviolet;
+}
+.Home {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.linkcont {
+  margin: 40px;
+  justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  margin: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Inc {
+  font-size: 100px;
+  text-align: center;
+}
+.Navbar{
+  margin-top:0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  background-color: rgb(184, 124, 124);
+}
+.linkcont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.links{
+  justify-content: space-between;
+}
+.llc{
+  margin:0px 20px;
+  font-weight: bold;
+}
+.btc {
+  margin: 0px 477px;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.btcc {
+  margin: 9px 17px;
+}
+.Colsubb{
+  display: flex;
+  margin-top: 20%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  margin: 10% 37% 10%;
+}
+.sub{
+  justify-content: space-between;
+  size: 10%;
+height: 10%;
+width: 10%;
 }
 
-.App-link {
-  color: #61dafb;
+.movie{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+  justify-content: space-between;
 }
+.movies{
+  border: 1px solid black;
+  background-color: grey;
+  font-size: 30px;
+  width: 18%;
+  justify-content: space-between;
+  padding: 3px;
+  margin-bottom:70px; 
+  margin-top: 15px;
+}
+.movies img{
+  height: 62%;
+  width: 100%;
+}
+.Mylogin{
+  border:1px solid black;
+  background-color: rgb(161, 149, 149);
+  width:34%;
+  margin-top:4%;
+  margin-left:34%;
+  padding:12px;
+}
+.spa{
+  color: red;
+  font-weight: bold; 
+  font-size: large;
+}
+.FormV{
+  border: 1px solid black;
+  background-color: rgb(161, 149, 149);
+  width:34%;
+  margin-top:4%;
+  margin-left:34%;
+  padding:12px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
