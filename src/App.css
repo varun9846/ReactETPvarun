@@ -156,3 +156,30 @@ width: 10%;
   margin-right: 4px;
   width: 100%;
 }
+.imgc{
+  width:50%;
+  height: 700px;;
+  background-color: black;
+  margin-left: 25%;
+  margin-top: 2%;
+}
+.imginner{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.btni button{
+height: 100px;
+width: 100px;
+font-size: larger;
+font-weight: bolder;
+}
+#bti1{
+  margin-left: 80%;
+ margin-top: -8%;}
+
+ #bti2{
+  margin-left: 10%;
+  margin-top: -28%;
+ }

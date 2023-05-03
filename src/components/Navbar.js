@@ -14,6 +14,8 @@ const Navbar = () => {
         <div className="llc"><Link to="/FormV">Form-validation</Link></div>
         <div className="llc"><Link to="/Recordkeep">Recordkeep</Link></div>
         <div className="llc"><Link to="/Apifetch">Apifetch</Link></div>
+        <div className="llc"><Link to="/ImgCarousel">ImgCarousel</Link></div>
+
         </div>
       </div>
     </div>
