@@ -12,6 +12,7 @@ import { Recordkeep } from './Pages/Recordkeep';
 import { Apifetch } from './Pages/Apifetch';
 import { ImgCarousel } from './Pages/ImgCarousel'
 import { Searchq } from './Pages/Searchq';
+import { Calculator } from './Pages/Calculator';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
           <Route path='/Apifetch' element={<Apifetch />} />
         <Route path='/ImgCarousel' element={<ImgCarousel/>} />
         <Route path='/Searchq' element={<Searchq/>} />
+        <Route path='/Calculator' element={<Calculator/>} />
+
 
         
         </Routes>
