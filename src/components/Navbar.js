@@ -15,6 +15,7 @@ const Navbar = () => {
         <div className="llc"><Link to="/Recordkeep">Recordkeep</Link></div>
         <div className="llc"><Link to="/Apifetch">Apifetch</Link></div>
         <div className="llc"><Link to="/ImgCarousel">ImgCarousel</Link></div>
+        <div className="llc"><Link to="/Searchq">Search query</Link></div>
 
         </div>
       </div>

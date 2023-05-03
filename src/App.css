@@ -183,3 +183,20 @@ font-weight: bolder;
   margin-left: 10%;
   margin-top: -28%;
  }
+.stt{
+  border: 1px solid black;
+  width: 11%;
+  font-size: large;
+  font-weight: bold;
+  color: red;
+  background-color: aqua;
+  margin-left: 40%;
+}
+
+#search{
+  border: 2px solid black;
+  font-size: large;
+  font-weight: bold;
+  width: 11%;
+  margin-left: 40%;
+}

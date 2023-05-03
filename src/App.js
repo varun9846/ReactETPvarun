@@ -11,6 +11,7 @@ import { FormV } from './Pages/FormV';
 import { Recordkeep } from './Pages/Recordkeep';
 import { Apifetch } from './Pages/Apifetch';
 import { ImgCarousel } from './Pages/ImgCarousel'
+import { Searchq } from './Pages/Searchq';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
           <Route path='/Recordkeep' element={<Recordkeep />} />
           <Route path='/Apifetch' element={<Apifetch />} />
         <Route path='/ImgCarousel' element={<ImgCarousel/>} />
+        <Route path='/Searchq' element={<Searchq/>} />
+
         
         </Routes>
       </Router>
