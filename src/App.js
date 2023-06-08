@@ -14,6 +14,7 @@ import { Apifetch } from './Pages/Apifetch';
 import { ImgCarousel } from './Pages/ImgCarousel'
 import { Searchq } from './Pages/Searchq';
 import { Calculator } from './Pages/Calculator';
+import { MergeArrays } from './Pages/MergeArrays';
 import { UseContextRef } from './Pages/UseContextRef';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -45,6 +46,8 @@ function App() {
         <Route path='/Searchq' element={<Searchq/>} />
         <Route path='/Calculator' element={<Calculator/>} />
         <Route path='/UseContextRef' element={<UseContextRef/>} />
+        <Route path='/MergeArrays' element={<MergeArrays/>} />
+
         </Routes>
       </Router>
       </Appstate.Provider>

@@ -18,6 +18,8 @@ const Navbar = () => {
         <div className="llc"><Link to="/Searchq">Search query</Link></div>
         <div className="llc"><Link to="/Calculator">Calculator</Link></div>
         <div className="llc"><Link to="/UseContextRef">UseContextRef</Link></div>
+        <div className="llc"><Link to="/MergeArrays">MergeArrays</Link></div>
+
 
 
 
